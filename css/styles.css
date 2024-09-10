@@ -133,7 +133,8 @@ button:hover {
     font-size:clamp(1em,5vw,3em);
 }
 .section p{
-    font-size:clamp(.5em,3vw,1.5em);
+    /* font-size:clamp(1.5em,.1vw,.5em); */
+    font-size:calc(1.2vw + .5em);
     padding: 30px;
 }
 
