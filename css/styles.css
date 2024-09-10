@@ -74,6 +74,19 @@ header {
     color: var(--clr-darkblue);
 }
 
+.hero {
+    position: relative;
+    height: 31rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 150px;
+}
 
 .hero::before {
     content: '';
@@ -82,9 +95,9 @@ header {
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url('/resources/city.jpeg');
     filter: brightness(50%);
     z-index: -1; 
+    background-image: url('../resources/city.jpeg')
 }
 
 .imag-ia {
@@ -117,10 +130,10 @@ button:hover {
 
 .section h2{
     padding: 20px;
-    font-size: 3vw;
+    font-size: 3rem;
 }
 .section p{
-    font-size: 1.6vw;
+    font-size: 1.5rem;
     padding: 30px;
 }
 
@@ -178,19 +191,7 @@ footer {
     margin-top: 30px;
 }
 
-.hero {
-    position: relative;
-    height: 31rem; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0 150px;
-}
+
 
 .section {
     margin: 5vw;
