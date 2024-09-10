@@ -109,7 +109,7 @@ header {
 }
 
 .hero-content p {
-    font-size: 1.9rem;
+    font-size:clamp(1em,5vw,2em);
     margin: 3rem;
 }
 
@@ -130,15 +130,15 @@ button:hover {
 
 .section h2{
     padding: 20px;
-    font-size: 3rem;
+    font-size:clamp(1em,5vw,3em);
 }
 .section p{
-    font-size: 1.5rem;
+    font-size:clamp(.5em,3vw,1.5em);
     padding: 30px;
 }
 
 .section h3{
-    font-size: 25px;
+    font-size:clamp(1em,5vw,1.8em);
 }
 
 .cards-container {
